@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --header-height: 4rem;
     font-family: "Courier New", monospace;
+    font-family: "Roboto", 'Trebuchet MS', sans-serif;
     font-size: 1.06rem;
     line-height: 1.28;
 
@@ -44,6 +47,7 @@ p {
     text-align: justify;
     hyphens: auto;
     max-width: clamp(45ch, 100%, 75ch);
+    text-wrap: pretty;
 }
 
 hr {
