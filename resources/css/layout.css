@@ -12,8 +12,7 @@ body {
     0% {
         opacity: .4;
         scale: .8;
-        rotate: -65deg;
-        translate: -13rem 18rem;
+        translate: -15rem;
     }
 }
 
