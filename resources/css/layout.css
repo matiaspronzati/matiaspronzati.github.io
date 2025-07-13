@@ -10,7 +10,7 @@ body {
 @keyframes appear {
     0% {
         opacity: .2;
-        translate: 0 1rem;
+        translate: 0 2rem;
     }
 }
 
@@ -21,6 +21,7 @@ main {
     max-width: 100%;
     margin-inline: auto;
     align-self: center;
+    align-items: center;
     column-gap: 1rem;
     row-gap: .4rem;
     height: 100%;
@@ -49,12 +50,14 @@ main {
     grid-row: full;
     grid-column: full;
     margin-inline: auto;
+    text-transform: uppercase;
 }
 
 #contacto {
     grid-row: footer;
     grid-column: full;
     margin-inline: auto;
+    p {text-indent: 0;}
 }
 
 .info__img {
@@ -72,12 +75,6 @@ main {
     display: flex;
     flex-direction: column;
     max-width: 65ch;
-
-    p {
-        text-indent: 2rem;
-        text-align: justify;
-        padding-block: .4rem;
-    }
 }
 
 /* -- Positions -- */

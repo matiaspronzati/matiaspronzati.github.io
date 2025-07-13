@@ -2,13 +2,13 @@
 
 :root {
     --header-height: 4rem;
-    font-family: "Courier New", monospace;
     font-family: "Roboto", 'Trebuchet MS', sans-serif;
     font-size: 1.06rem;
     line-height: 1.28;
+    user-select: none;
 
-    --fg: hsl(38, 41%, 71%);
-    --bg: hsl(195, 6%, 12%);
+    --fg: hsl(38, 10%, 75%);
+    --bg: hsl(195, 6%, 10%);
 
     --bg1: hsl(0, 0%, 16%);
     --bg2: hsl(20, 5%, 22%);
@@ -48,6 +48,7 @@ p {
     hyphens: auto;
     max-width: clamp(45ch, 100%, 75ch);
     text-wrap: pretty;
+    user-select: text;
 }
 
 hr {
@@ -56,12 +57,13 @@ hr {
 
 h1 {
     font-family: "Roboto Mono";
-    font-size: 8.48rem;
+    font-size: clamp(2.12rem, 12vw + 1rem, 8.48rem);
 }
 
 h2 {
     font-family: "Roboto Mono";
-    font-size: 4.24rem;
+    font-size: clamp(2.12rem, 6vw + 1rem, 4.24rem);
+    font-weight: 700;
 }
 
 h3 {
