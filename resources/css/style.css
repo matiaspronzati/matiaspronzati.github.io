@@ -24,54 +24,11 @@
 }
 
 @media only screen and (max-width: 50em) {
-    :root { --header-height: 5.5rem; }
 }
 
 body {
     color: var(--fg);
     background-color: var(--bg);
-}
-
-::-webkit-scrollbar {
-    width: 1.1em;
-}
-
-::-webkit-scrollbar-track {
-    margin: 2em;
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--fg);
-    border: .34em solid var(--bg);
-}
-
-.main-header {
-    height: var(--header-height);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: var(--bg);
-    border-bottom: 0.20rem solid var(--fg);
-    box-shadow: 0 1rem 0.8rem var(--bg);
-    z-index: 100;
-}
-
-.main-base {
-    margin: calc(var(--header-height) + 1.2rem) auto;
-}
-
-.main-nav {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    align-items: center;
-}
-
-@media only screen and (max-width: 50em) {
-    .main-nav {
-        grid-template-columns: 1fr 4fr;
-    }
 }
 
 .main-nav a {
@@ -82,85 +39,13 @@ a:hover, a:focus {
     color: var(--yellow);
 }
 
-h1 {
-    font-size: 1.5em;
-    font-weight: 900;
-}
-
-h2 {
-    text-indent: .8em;
-    font-size: 1.25em;
-    font-weight: 600;
-}
-
-.texto h2 {
-    font-size: 1.3em;
-}
-
-h4 {
-    text-indent: .8em;
-    font-size: 0.90em;
-    line-height: 1.75;
-    color: var(--grey0);
-}
-
 p {
     text-indent: 2.4rem;
     text-align: justify;
     hyphens: auto;
-    padding-block: .1rem;
+    max-width: clamp(45ch, 100%, 75ch);
 }
 
 hr {
     border-bottom: 1px solid;
 }
-
-section {
-    padding-block: .4rem;
-}
-
-.texto {
-    margin-inline: auto;
-    max-width: clamp(45ch, 100%, 75ch);
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo a {
-    transition: 100ms;
-}
-
-.logo img {
-    padding: .2em 0;
-    max-height: calc(var(--header-height) - (2 * .6em));
-}
-
-.logo a:hover, .logo a:focus {
-    filter: brightness(130%);
-}
-
-.advertencia {
-    border-top: .3em solid;
-    border-bottom: .6em solid;
-    border-color: var(--red);
-    border-radius: 1em;
-    padding: .8em;
-    margin-top: .6rem;
-    margin-bottom: 2.8rem;
-}
-
-.notyet {
-    color: var(--bg3);
-    opacity: .1;
-}
-
-.wrapper {
-    width: 100%;
-    max-width: 60em;
-    margin-inline: auto;
-    padding-inline: 2em;
-}
-
