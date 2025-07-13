@@ -10,8 +10,7 @@ body {
 @keyframes appear {
     0% {
         opacity: .2;
-        scale: .8;
-        translate: 0 15rem;
+        translate: 0 1rem;
     }
 }
 
