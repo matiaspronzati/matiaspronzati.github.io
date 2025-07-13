@@ -49,10 +49,14 @@ main {
 
 #prox {
     grid-row: full;
+    grid-column: full;
+    margin-inline: auto;
 }
 
 #contacto {
     grid-row: footer;
+    grid-column: full;
+    margin-inline: auto;
 }
 
 .info__img {
