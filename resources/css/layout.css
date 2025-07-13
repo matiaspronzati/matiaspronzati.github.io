@@ -42,8 +42,8 @@ main {
     grid-template-rows:
     [borde-top-start] 2rem
     [borde-top-end full-start] auto
-    [footer-start] auto
-    [footer-end full-end borde-bot-start] minmax(2rem, auto)
+    [footer-start] min-content
+    [footer-end full-end borde-bot-start] 2rem
     [borde-bot-end];
 }
 
