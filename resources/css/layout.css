@@ -4,15 +4,14 @@ body {
 }
 
 #prox {
-    transition: 120ms;
-    animation: appear 200ms ease-in-out;
+    animation: appear 800ms ease-in-out;
 }
 
 @keyframes appear {
     0% {
-        opacity: .4;
+        opacity: .2;
         scale: .8;
-        translate: -15rem;
+        translate: 0 -15rem;
     }
 }
 
