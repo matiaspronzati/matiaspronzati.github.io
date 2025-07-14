@@ -3,21 +3,13 @@ body {
     height: 100svh;
 }
 
-#prox {
-    grid-row: full;
-    grid-column: full;
-    margin-inline: auto;
-    text-transform: uppercase;
-    animation: appear 600ms ease-in-out;
-}
-
 #splashOptions {
     grid-row: full;
     grid-column: full;
     display: flex;
     justify-content: center;
     gap: 1rem;
-    animation: appear 800ms ease-in-out;
+    animation: appear 600ms ease-in-out;
 }
 
 .splashOptionsCard {

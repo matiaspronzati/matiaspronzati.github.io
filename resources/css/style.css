@@ -37,6 +37,7 @@ body {
 
 a:hover, a:focus {
     color: var(--yellow);
+    color: hsl(38, 80%, 90%);
 }
 
 p {
