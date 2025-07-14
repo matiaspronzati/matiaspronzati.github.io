@@ -4,7 +4,39 @@ body {
 }
 
 #prox {
+    grid-row: full;
+    grid-column: full;
+    margin-inline: auto;
+    text-transform: uppercase;
+    animation: appear 600ms ease-in-out;
+}
+
+#splashOptions {
+    grid-row: full;
+    grid-column: full;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
     animation: appear 800ms ease-in-out;
+}
+
+.splashOptionsCard {
+    border: 1px solid var(--fg);
+    border-bottom: 2px solid var(--fg);
+    cursor: pointer;
+    > * {padding: 1rem;}
+    transition: 200ms;
+}
+.splashOptionsCard:hover, .splashOptionsCard:focus {
+    background-color: var(--bg1);
+    transition: 200ms;
+}
+
+#contacto {
+    grid-row: footer;
+    grid-column: full;
+    margin-inline: auto;
+    p {text-indent: 0;}
 }
 
 @keyframes appear {
@@ -28,15 +60,12 @@ main {
 
     display: grid;
     grid-template-columns:
-    [borde-l-start] clamp(1rem, 8vw, 4rem)
-    [borde-l-end full-start main-left-start side-left-start]
-    1fr
-    [side-left-end main-right-start]
-    1fr
-    [main-left-end side-right-start]
-    1fr
-    [main-right-end side-right-end full-end borde-r-start]
-    clamp(1rem, 8vw, 4rem) [borde-r-end];
+    [borde-l-start] 2rem
+    [borde-l-end full-start main-left-start side-left-start] 1fr
+    [side-left-end main-right-start] 1fr
+    [main-left-end side-right-start] 1fr
+    [main-right-end side-right-end full-end borde-r-start] 2rem
+    [borde-r-end];
 
     grid-template-rows:
     [borde-top-start] 2rem
@@ -44,20 +73,6 @@ main {
     [footer-start] min-content
     [footer-end full-end borde-bot-start] 2rem
     [borde-bot-end];
-}
-
-#prox {
-    grid-row: full;
-    grid-column: full;
-    margin-inline: auto;
-    text-transform: uppercase;
-}
-
-#contacto {
-    grid-row: footer;
-    grid-column: full;
-    margin-inline: auto;
-    p {text-indent: 0;}
 }
 
 .info__img {
