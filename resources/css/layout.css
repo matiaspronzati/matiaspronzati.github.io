@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    animation: appear 900ms 400ms ease-in-out forwards;
+    animation: appear 600ms 200ms ease-in-out forwards;
     opacity: 0;
 }
 
