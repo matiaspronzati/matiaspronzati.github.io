@@ -3,28 +3,140 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="resources/css/reset.css" rel="stylesheet">
-    <link href="resources/css/style.css" rel="stylesheet">
-    <link href="resources/css/layout.css" rel="stylesheet">
-    <link href="resources/css/palette-desaturada.css" rel="stylesheet">
+	<link href="resources/css/reset.css" rel="stylesheet">
+	<link href="resources/css/style.css" rel="stylesheet">
+	<link href="resources/css/layoutPortfolio.css" rel="stylesheet">
+	<link href="resources/css/palette-desaturada.css" rel="stylesheet">
 
-    <title>Estudiante de arq. Matías Pronzati</title>
-    <link rel="icon" href="resources/img/MP.svg" type="image/x-icon" />
+	<title>Matías Pronzati - Portfolio</title>
+	<link rel="icon" href="resources/img/MP.svg" type="image/x-icon" />
 
 </head>
 
 <body>
+	<header>
+		<h2>Arquitectura</h2>
+		<h1>Matías Pronzati</h1>
+	</header>
 
-    <main>
-        <div id="splashOptions">
-		<a href="index.html"><div class="splashOptionsCard"><h2>PRÓXIMAMENTE</h2></div></a>
-	</div>
-        <div id="contacto"><p><u>Contacto:</u><hr><a href="mailto:matiaspronzati@gmail.com">matiaspronzati@gmail.com</a></p></div>
-    </main>
+	<nav>
+		<a href="#0" onclick="toCard(0)">Portada</a>
+		<a href="#1" onclick="toCard(1)">Proyectos de Arquitectura</a>
+		<a href="#4" onclick="toCard(4)">Dibujo Técnico</a>
+		<a href="#7" onclick="toCard(7)">Renders</a>
+		<hr>
+		<a href="#10" onclick="toCard(10)">Materiales</a>
+	</nav>
+
+	<main>
+		<div class="carousel">
+
+			<div class="card" id="0">
+				<div class="content">
+					<h1>Portfolio</h1>
+					<h3>Trabajos Académicos<br>
+					Trabajos Realizados<br>
+					Experimentaciones</h3>
+				</div>
+			</div>
+	
+			<div class="card" id="1">
+				<div class="content">
+					<h2>Proyectos de Arquitectura</h2>
+				</div>
+			</div>
+
+			<div class="card" id="2">
+				<div class="content">
+					<img class="image" src="resources/img/works/1.jpg"/>
+				</div>
+			</div>
+
+			<div class="card" id="3">
+				<div class="content">
+					<img class="image" class="image" src="resources/img/works/2.jpg"/>
+				</div>
+			</div>
+
+			<div class="card" id="4">
+				<div class="content">
+					<h2>Dibujo Técnico</h2>
+				</div>
+			</div>
+
+			<div class="card" id="5">
+				<div class="content">
+					<img class="image" src="resources/img/works/3.png"/>
+				</div>
+			</div>
+
+			<div class="card" id="6">
+				<div class="content">
+					<img class="image" src="resources/img/works/4.png"/>
+				</div>
+			</div>
+
+			<div class="card" id="7">
+				<div class="content">
+					<h2>Renders</h2>
+				</div>
+			</div>
+
+			<div class="card" id="8">
+				<div class="content">
+					<img class="image" src="resources/img/works/5.png"/>
+				</div>
+			</div>
+
+			<div class="card" id="9">
+				<div class="content">
+					<img class="image contain" src="resources/img/works/6.png"/>
+				</div>
+			</div>
+
+			<div class="card" id="10">
+				<div class="content">
+					<h2>Materiales</h2>
+				</div>
+			</div>
+
+			<div class="card" id="11">
+				<div class="content">
+					<img class="image" src="resources/img/works/7.png"/>
+				</div>
+			</div>
+
+			<div class="card" id="12">
+				<div class="content">
+					<img class="image" src="resources/img/works/8.png"/>
+				</div>
+			</div>
+
+		</div>
+
+		<a href="#0" class="btn left-btn" onclick="slide(-1)" inert>&#10094;</a>
+		<a href="#1" class="btn right-btn" onclick="slide(1)">&#10095;</a>
+		<div class="bullets">
+			<a class="bullet" href="#0" onclick="toCard(0)"></a>
+			<a class="bullet" href="#1" onclick="toCard(1)"></a>
+			<a class="bullet" href="#2" onclick="toCard(2)"></a>
+			<a class="bullet" href="#3" onclick="toCard(3)"></a>
+			<a class="bullet" href="#4" onclick="toCard(4)"></a>
+			<a class="bullet" href="#5" onclick="toCard(5)"></a>
+			<a class="bullet" href="#6" onclick="toCard(6)"></a>
+			<a class="bullet" href="#7" onclick="toCard(7)"></a>
+			<a class="bullet" href="#8" onclick="toCard(8)"></a>
+			<a class="bullet active" href="#9" onclick="toCard(9)"></a>
+			<a class="bullet" href="#10" onclick="toCard(10)"></a>
+			<a class="bullet" href="#11" onclick="toCard(11)"></a>
+			<a class="bullet" href="#12" onclick="toCard(12)"></a>
+		</div>
+
+	</main>
+
+	<script src="resources/js/carousel.js"></script>
 
 </body>
-</html>
-
