@@ -59,7 +59,7 @@ export const pages = [
         1. En lugar de SketchUp y a veces también para renderizado.
         </div>
         <div class="grid-image" style="grid-column: 8 / 13; grid-row: 2 / 6;">
-        <img src="resources/content/IMG_2056.jpg" style="width: 100%;" />
+        <img src="resources/content/IMG_2056.JPG" style="width: 100%;" />
         </div>
         </div>`
     },
