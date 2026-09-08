@@ -40,7 +40,7 @@
     --bg-main: var(--bg);
     --bg-page: var(--bg);
     --bg-header: var(--bg);
-    --bg-sidenav: var(--bg1);
+    --bg-sidenav: var(--bg);
 
     /* Text */
     --text-primary: var(--highlight);;
