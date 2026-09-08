@@ -34,10 +34,33 @@ export const pages = [
         topic: null,
         content: `<div class="page-content">
         <h1 class="section-title">Sobre Mí</h1>
-        <p style="grid-column: 1 / 6; grid-row: 3;">Soy <b>Matías Pronzati</b>, estudiante avanzado de arquitectura en la <b>UNMdP</b>.
-        Tengo treinta y cuatro años. Me apasiona el arte y la tecnología.
-        Me gustan la estructura y la novedad.
-        También me gusta cocinar y tocar música.</p>
+        <div style="grid-column: 1 / 6; grid-row: 3;">
+        <p>Soy un estudiante avanzado de arquitectura que valora
+        el <b>diseño eficiente</b> y el respeto por el <b>espacio público</b>.
+        Busco crear <b>espacios de calidad</b> y, al mismo tiempo, optimizar los
+        recursos para <b>lograr más con menos.</b></p>
+
+        <p>Hago uso de una <b>estética minimalista</b>, poniendo en valor la <b>naturaleza de los
+        materiales</b> y la <b>pureza de las formas</b>. Estoy terminando la carrera de arquitectura
+        en la FAUD de la UNMdP. Durante la misma me orienté hacía el <b>diseño funcional</b>, el
+        <b>paisaje urbano</b> y el <b>diseño industrial</b> de arquitectura.</p>
+        </div>
+
+        <div style="grid-column: 8 / 13; grid-row: 11;">
+        <p><i>En mi tiempo libre me gusta investigar sobre los temas más variopintos, disfrutar
+        videojuegos, programar o tocar el bajo.</i></p>
+        </div>
+
+        <div style="grid-column: 1 / 6; grid-row: 9;">
+        <p>He usado una gran variedad de programas de dibujo, modelado 3D, BIM y renderizado.
+        Mis preferidos son <b>AutoCAD</b> y <b>Blender</b><sup>1</sup>.</p>
+        </div>
+        <div class="footnote" style="grid-column: 2 / 13; grid-row: 12 / 13;">
+        1. En lugar de SketchUp y a veces también para renderizado.
+        </div>
+        <div class="grid-image" style="grid-column: 8 / 13; grid-row: 2 / 6;">
+        <img src="resources/content/IMG_2056.jpg" style="width: 100%;" />
+        </div>
         </div>`
     },
     {

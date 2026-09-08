@@ -91,5 +91,12 @@ body {
     letter-spacing: 1px;
 }
 .small-caps { font-variant: small-caps; }
+sup { font-variant-position: super; font-size: 1.4cqmin; }
+.footnote {
+    align-self: end;
+    border-top: 1px solid;
+    font-size: 1.8cqmin;
+    padding-top: .2lh;
+}
 hr { border-bottom: 1px solid var(--yellow); margin-bottom: 0.2lh; }
 
