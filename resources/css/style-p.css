@@ -66,7 +66,7 @@
 /* --- NAVIGATION ZONES --- */
 .nav-zone {
     position: absolute;
-    top: 35%; bottom: 35%; width: 16%;
+    top: 25%; bottom: 25%; width: 26%;
     /* background-color: #113; */
     z-index: 50;
     cursor: pointer;
