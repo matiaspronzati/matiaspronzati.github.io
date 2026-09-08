@@ -1,0 +1,55 @@
+:root {
+    --fg: hsl(38, 41%, 71%);
+
+    --highlight: hsl(37, 62%, 59%);
+
+    --bg: hsl(195, 6%, 12%);
+    --bg1: hsl(0, 0%, 16%);
+    --bg2: hsl(20, 5%, 22%);
+    --bg3: hsl(22, 7%, 29%);
+
+    --yellow: hsl(37, 62%, 59%);
+    --red: hsl(3, 76%, 65%);
+    --green: hsl(70, 36%, 55%);
+
+    --grey0: hsl(28, 11%, 44%);
+    --grey1: hsl(30, 12%, 51%);
+    --grey2: hsl(35, 17%, 59%);
+
+    --bg-yellow: hsl(38, 27%, 22%);
+    --bg-red: hsl(2, 33%, 18%);
+}
+
+:root {
+    --fg: hsl(38, 10%, 75%);
+
+    --highlight: hsl(38, 80%, 80%);
+
+    --bg: hsl(195, 6%, 8%);
+    --bg1: hsl(195, 6%, 12%);
+    --bg2: hsl(20, 5%, 22%);
+    --bg3: hsl(22, 7%, 29%);
+
+    --yellow: hsl(37, 62%, 59%);
+    --red: hsl(3, 76%, 65%);
+    --green: hsl(70, 36%, 55%);
+}
+
+:root {
+    /* Backgrounds */
+    --bg-main: var(--bg);
+    --bg-page: var(--bg);
+    --bg-header: var(--bg);
+    --bg-sidenav: var(--bg1);
+
+    /* Text */
+    --text-primary: var(--highlight);;
+    --text-sidenav: var(--fg);
+    --text-sidenav-muted: var(--grey1);
+    --text-subtle: var(--grey2);
+
+    /* UI Elements */
+    --accent-color: var(--highlight);
+    --border-color: var(--grey1);
+    --shadow-color: rgba(0, 0, 0, 0.2);
+}

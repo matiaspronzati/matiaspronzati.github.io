@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+/* Header Text */
+.brand {
+    grid-row:1;
+    grid-column:2;
+    font-family: "Roboto Mono";
+    font-size: 2.1rem;
+    font-size: clamp(1rem, 5vw, 2.1rem);
+    font-weight: 700;
+	letter-spacing:-1px;
+    line-height: 1.28;
+    color: var(--text-sidenav);
+}
+.brand-back {
+    grid-row:1;
+    grid-column:2;
+    font-family: "Roboto Mono";
+    font-size: 4.2rem;
+    font-size: clamp(2rem, 10vw, 4.2rem);
+    font-weight: 700;
+    text-transform: uppercase;
+	letter-spacing:-1px;
+    line-height: 0.6;
+    color: var(--bg1);
+    color:#282828;
+    margin-bottom:0.2rem;
+    margin-left:1.2rem;
+}
+
+.menu-toggle, .close-btn {
+    font-size: 1.5rem;
+}
+
+/* Sidenav Text */
+.sidenav h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+/* Page Text */
+/* .page-content { container-type: inline-size; } */
+.page-content > * {
+    font-size: 2.1cqmin;
+    line-height: 1.2;
+    color: var(--fg);
+    /* transition: all 0.2s ease; */
+}
+.page .title { font-family: "Roboto Mono", monospace; font-size: 16cqw; font-weight: 700; }
+.page .firma { font-family: "Roboto Mono", monospace; font-size: 4cqw; font-weight: 700; color: var(--yellow); }
+/* .page .firma { font-family: "Roboto Mono", monospace; font-size: 120cqw; font-weight: 700; color: #00000088; position: relative; } */
+.page .section-num {
+    font-family: "Roboto Mono", monospace;
+    font-size: 120cqw; font-weight: 900;
+    text-align: right; letter-spacing: -22%; align-self: end;
+    color: var(--bg-main);
+}
+.page h1 { font-family: "Roboto Mono", monospace; font-size: 8cqw; font-weight: 700; }
+.page h3 { font-family: "Roboto Mono", monospace; font-size: 3.2cqw; font-weight: 600; }
+.page .indice { line-height: 1.6; }
+.page p {
+    max-width: 40ch;
+    text-wrap: pretty;
+    text-indent: 4ch;
+    text-align: justify;
+    hyphens: auto;
+    hyphenate-limit-chars: 6;
+    margin-bottom: 0.6lh;
+}
+.page small {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.small-caps { font-variant: small-caps; }
+hr { border-bottom: 1px solid var(--yellow); margin-bottom: 0.2lh; }
+
